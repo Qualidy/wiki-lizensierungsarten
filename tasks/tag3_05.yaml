@@ -1,0 +1,40 @@
+title: Open-Source-Strategie entwickeln
+difficulty: 3
+question: |
+  Du bist Entwickler in einem Unternehmen, das eine **SaaS-Plattform** (Software as a Service) entwickelt. Kunden greifen über den Browser zu – die Software wird nie heruntergeladen.
+  
+  Das Entwicklungsteam möchte folgende Komponenten verwenden:
+  
+  | Komponente | Lizenz |
+  |---|---|
+  | React (Frontend-Framework) | MIT |
+  | PostgreSQL (Datenbank) | PostgreSQL License (sehr permissiv) |
+  | Chart.js (Diagramme) | MIT |
+  | Ein Analyse-Modul | AGPL v3 |
+  
+  Das Unternehmen möchte **keinen Quellcode veröffentlichen**.
+  
+  **Aufgaben:**
+  1. Welche Komponenten sind unproblematisch? Begründe.
+  2. Das AGPL-Analyse-Modul – warum ist es besonders problematisch für SaaS-Unternehmen?
+  3. Welche Lösungen gibt es für das AGPL-Problem?
+  4. Erkläre den Unterschied zwischen GPL und AGPL in einem Satz.
+tip: |
+  AGPL = GPL + Netzwerk-Nutzung. Bei normaler GPL: Copyleft gilt erst beim Verteilen der Software. Bei SaaS verteilt man die Software nicht – aber AGPL schließt diese Lücke.
+solution: |
+  **1. Unproblematische Komponenten:**
+  - **React (MIT):** Vollständig permissiv, darf ohne Einschränkungen verwendet werden.
+  - **PostgreSQL License:** Ähnlich wie MIT/BSD – keine Copyleft-Auflagen.
+  - **Chart.js (MIT):** Wie React, kein Problem.
+  
+  **2. AGPL-Problem für SaaS:**
+  Die AGPL wurde speziell entwickelt, um die „SaaS-Lücke" der GPL zu schließen. Bei der GPL gilt Copyleft erst beim **Verteilen** der Software. Da SaaS-Anbieter die Software nicht verteilen (Kunden nutzen sie über den Browser), wäre normale GPL unkritisch. Die AGPL sagt aber: Auch wer die Software über ein Netzwerk anderen zugänglich macht (= SaaS), muss den Quellcode unter der AGPL veröffentlichen. Das AGPL-Modul würde erzwingen, den gesamten Plattformcode offenzulegen.
+  
+  **3. Lösungen:**
+  - Kommerzielle Lizenz beim Hersteller kaufen (Dual-Licensing, typisch bei AGPL-Projekten)
+  - Alternative Bibliothek mit MIT/Apache-Lizenz suchen
+  - Das Modul vollständig selbst entwickeln
+  - Das Modul als komplett isolierten Mikroservice betreiben (rechtlich umstritten)
+  
+  **4. GPL vs. AGPL:**
+  GPL: Copyleft gilt beim Verteilen der Software. AGPL: Copyleft gilt auch bei der Bereitstellung über ein Netzwerk (z. B. als Web-App).

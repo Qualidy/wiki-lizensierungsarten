@@ -1,0 +1,27 @@
+title: CC-Lizenz zuordnen
+difficulty: 1
+question: |
+  Ordne jedem Szenario die passende Creative-Commons-Lizenz zu. Wähle aus:
+  CC0, CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-ND
+  
+  **Szenario A:**  
+  Ein Wissenschaftler veröffentlicht seine Forschungsdaten und möchte, dass alle – auch Unternehmen – die Daten nutzen dürfen. Er möchte nur, dass sein Name genannt wird.
+  
+  **Szenario B:**  
+  Eine Fotografin stellt Bilder online. Privatpersonen und Schulen dürfen sie nutzen, aber keine Werbeagenturen. Ihr Name muss immer genannt werden.
+  
+  **Szenario C:**  
+  Ein Musiker möchte, dass sein Song frei geteilt werden darf – auch bearbeitet –, aber nur wenn das Ergebnis ebenfalls frei bleibt und sein Name genannt wird.
+  
+  **Szenario D:**  
+  Eine Behörde veröffentlicht offizielle Statistiken und verzichtet auf alle Rechte – jeder darf alles damit machen.
+tip: |
+  NC = NonCommercial, SA = ShareAlike, BY = Attribution (Namensnennung), 0 = keine Einschränkungen.
+solution: |
+  **Szenario A:** CC-BY – Nutzung erlaubt (auch kommerziell), nur Namensnennung erforderlich.
+  
+  **Szenario B:** CC-BY-NC – Namensnennung + keine kommerzielle Nutzung.
+  
+  **Szenario C:** CC-BY-SA – Namensnennung + gleiche Lizenz bei Bearbeitungen (ShareAlike).
+  
+  **Szenario D:** CC0 – vollständiger Rechteverzicht, wie Public Domain.

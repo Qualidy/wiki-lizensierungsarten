@@ -1,0 +1,19 @@
+title: Urheberrecht – Grundlagen prüfen
+difficulty: 1
+question: |
+  Beantworte die folgenden Fragen zum Urheberrecht:
+  
+  1. Muss ein Softwareentwickler seinen Code irgendwo anmelden, damit er urheberrechtlich geschützt ist?
+  2. Ein Entwickler erstellt im Auftrag seines Arbeitgebers eine Web-App. Wem gehört der Code?
+  3. Wie lange gilt der Urheberrechtsschutz nach dem Tod des Urhebers?
+  4. Kann man ein Urheberrecht verkaufen?
+tip: |
+  Das Urheberrecht entsteht automatisch. Im Arbeitsrecht gibt es eine wichtige Sonderregel für Software (§ 69b UrhG).
+solution: |
+  1. **Nein** – das Urheberrecht entsteht in Deutschland automatisch mit der Schöpfung. Keine Anmeldung, kein Register notwendig.
+  
+  2. Das **Urheberrecht** bleibt beim Entwickler. Aber: Die **ausschließlichen Nutzungsrechte** gehen automatisch auf den Arbeitgeber über (§ 69b UrhG) – der Arbeitgeber darf den Code also nutzen, verändern und verwerten.
+  
+  3. Das Urheberrecht gilt **70 Jahre** nach dem Tod des Urhebers.
+  
+  4. **Nein** – das Urheberrecht selbst ist in Deutschland **nicht übertragbar**. Man kann nur **Nutzungsrechte** (Lizenzen) vergeben – einfache oder ausschließliche Nutzungsrechte.

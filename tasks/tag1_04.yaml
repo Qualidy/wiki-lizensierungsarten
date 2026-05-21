@@ -1,0 +1,24 @@
+title: Lizenzmodell für ein wachsendes Unternehmen
+difficulty: 2
+question: |
+  Das Unternehmen „DataFlow GmbH" hat aktuell 12 Mitarbeiter und plant in den nächsten 2 Jahren auf 50 Mitarbeiter zu wachsen.
+  
+  Die IT-Abteilung diskutiert, ob sie neue PCs mit OEM-Lizenzen kaufen oder auf ein Volumenlizenzprogramm wechseln soll.
+  
+  **Erstelle eine Tabelle**, die die Vor- und Nachteile beider Modelle für die DataFlow GmbH gegenüberstellt.
+  
+  **Empfehle** anschließend ein Modell und begründe es mit mindestens zwei Argumenten.
+tip: |
+  Denke an die Aspekte: Flexibilität bei Gerätewechsel, Verwaltungsaufwand bei vielen Geräten, Kosten, Skalierbarkeit.
+solution: |
+  | Kriterium | OEM | Volumenlizenz |
+  |---|---|---|
+  | Kosten initial | Günstiger | Höher, aber Mengenrabatt |
+  | Flexibilität | Gering (gerätegebunden) | Hoch (verschiebbar) |
+  | Verwaltung bei 50+ Geräten | Aufwändig | Zentral, einfach |
+  | Bei Gerätewechsel | Neue Lizenz nötig | Lizenz übertragbar |
+  | Wachstum | Jedes Gerät einzeln | Skalierbar |
+  
+  **Empfehlung:** Volumenlizenz, weil:
+  1. Bei 50 Mitarbeitern ist zentrale Verwaltung deutlich effizienter
+  2. Bei Gerätewechsel oder Austausch fallen keine neuen Lizenzkosten an

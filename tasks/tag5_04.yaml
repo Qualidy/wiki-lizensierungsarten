@@ -1,0 +1,31 @@
+title: Wiederholung – Begriffe erklären
+difficulty: 1
+question: |
+  Erkläre die folgenden Begriffe in jeweils 2–3 Sätzen so, als würdest du sie einem Kollegen erklären, der noch nie etwas von Lizenzierung gehört hat.
+  
+  1. OEM-Lizenz
+  2. Copyleft
+  3. CAL
+  4. EULA
+  5. KMS-Aktivierung
+  6. Creative Commons
+tip: |
+  Stell dir vor, du erklärst es jemandem, der zwar mit Computern umgeht, aber kein IT-Fachwissen hat.
+solution: |
+  **1. OEM-Lizenz:**
+  OEM steht für Original Equipment Manufacturer. Eine OEM-Lizenz wird direkt mit der Hardware verkauft – zum Beispiel Windows, das schon auf einem neuen Laptop drauf ist. Die Lizenz gehört zu diesem Gerät und darf nicht auf einen anderen PC übertragen werden.
+  
+  **2. Copyleft:**
+  Copyleft ist ein Prinzip bei Open-Source-Lizenzen (z. B. GPL). Es besagt: Wenn du eine Software nimmst, veränderst und weitergibst, muss dein verändertes Programm ebenfalls offen und frei bleiben – also unter derselben Lizenz. Das Prinzip „vererbt" sich.
+  
+  **3. CAL:**
+  CAL steht für Client Access License. Wer auf einen Windows Server zugreift, braucht neben der Server-Lizenz auch eine CAL – eine Art Zugangsticket. Es gibt User-CALs (pro Person) und Device-CALs (pro Gerät).
+  
+  **4. EULA:**
+  EULA steht für End User License Agreement – das ist das Nutzungsrecht-Dokument, das du akzeptierst, wenn du eine Software installierst. Es ist ein rechtlicher Vertrag, der festlegt, was du mit der Software machen darfst und was nicht.
+  
+  **5. KMS-Aktivierung:**
+  KMS steht für Key Management Service. Statt dass jeder PC im Unternehmen Windows einzeln bei Microsoft aktiviert, gibt es einen internen Server (KMS-Server), der die Aktivierung für alle PCs im Firmennetz übernimmt. Praktisch für große Unternehmen mit vielen PCs.
+  
+  **6. Creative Commons:**
+  Creative Commons ist kein einzelnes Lizenzmodell, sondern ein System aus Lizenzbausteinen für Bilder, Texte, Musik und andere Inhalte. Die Bausteine regeln zum Beispiel, ob man den Urheber nennen muss, ob die Nutzung kommerziell erlaubt ist und ob Bearbeitungen erlaubt sind.

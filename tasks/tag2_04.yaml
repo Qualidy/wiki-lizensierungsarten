@@ -1,0 +1,28 @@
+title: CAL-Bedarf berechnen
+difficulty: 2
+question: |
+  Die „Bäckerei Sonnenschein GmbH" betreibt einen Windows Server 2022. Folgende Nutzer greifen zu:
+  
+  - 8 Büromitarbeiter, jeder hat einen eigenen PC
+  - 12 Bäcker in der Produktion, die sich 4 Produktions-Terminals teilen
+  - 2 Fahrer, die jeweils ein Tablet nutzen (nur für Dateiabfragen)
+  
+  **Aufgabe:**
+  1. Berechne den günstigsten CAL-Bedarf für jeden Bereich
+  2. Erkläre, welchen CAL-Typ du für welchen Bereich wählst und warum
+  3. Wie viele CALs benötigt das Unternehmen insgesamt?
+tip: |
+  Büro: 8 Personen, 8 Geräte → gleich teuer. Produktion: 12 Personen, 4 Geräte → welches ist günstiger? Fahrer: 2 Personen, 2 Geräte → gleich teuer, wähle pragmatisch.
+solution: |
+  **Büromitarbeiter:** 8 Personen, 8 Geräte → gleich teuer
+  → Wahl: **User-CAL × 8** (oder Device-CAL × 8, macht keinen Unterschied)
+  
+  **Produktionsbäcker:** 12 Personen, 4 Terminals → 4 Geräte günstiger!
+  → Wahl: **Device-CAL × 4** (12 User-CALs wären unnötig teuer)
+  
+  **Fahrer:** 2 Personen, 2 Tablets → gleich teuer
+  → Wahl: **User-CAL × 2** (da Fahrer ggf. auch von anderen Geräten zugreifen könnten)
+  
+  **Gesamtbedarf:** 8 + 4 + 2 = **14 CALs**
+  
+  Zum Vergleich: Nur User-CALs wären 8+12+2 = 22 CALs – 8 mehr.

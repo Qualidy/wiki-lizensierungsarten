@@ -1,0 +1,43 @@
+title: Lizenzierungskonzept erstellen
+difficulty: 3
+question: |
+  Du bist IT-Verantwortlicher bei der „TechMedics GmbH" (Medizintechnik-Startup, 35 Mitarbeiter).
+  
+  Folgende Situation:
+  - 25 feste Büromitarbeiter mit je eigenem PC (Windows)
+  - 10 Außendienstmitarbeiter mit je einem Firmenlaptop (Windows), die selten im Büro sind
+  - 1 Windows Server 2022 für Dateifreigaben und Active Directory
+  - Buchhaltungssoftware mit NUL-Modell (3 Buchhalter)
+  - Microsoft Office wird von allen 35 Mitarbeitern genutzt
+  
+  **Erstelle ein vollständiges Lizenzierungskonzept** mit folgenden Punkten:
+  
+  1. Welche CAL-Variante wählst du (User-CAL oder Device-CAL) und wie viele?
+  2. Wie aktivierst du Windows auf den 35 Geräten – und warum?
+  3. Welche Lizenzanzahl für Office und warum?
+  4. Welche Risiken entstehen, wenn die Außendienstler lange nicht im Büronetz sind?
+tip: |
+  Denke bei CALs an Außendienstler: Die haben einen Laptop, greifen aber auch vom Homeoffice oder Hotel aus zu.
+  Bei KMS: Wie oft sind die Außendienstler im Firmennetz?
+solution: |
+  **1. CAL-Variante:**
+  **User-CAL × 35**, weil:
+  - Büromitarbeiter: 25 Personen = 25 Geräte (gleich teuer, aber User-CAL ist flexibler)
+  - Außendienstler: 10 Personen, die von verschiedenen Orten zugreifen → User-CAL zwingend sinnvoller
+  
+  Keine Device-CALs, weil Außendienstler auch von zuhause oder VPN zugreifen.
+  
+  **2. Windows-Aktivierung:**
+  **KMS-Aktivierung** über den internen Windows Server.
+  - 35 Geräte übersteigen die Mindestgrenze (25) für KMS
+  - Zentrale Verwaltung spart Zeit
+  - Risiko: Außendienstler müssen sich regelmäßig per VPN einloggen (alle 180 Tage)
+  
+  **3. Office-Lizenzen:**
+  **Microsoft 365 Business (User-Lizenz) × 35**
+  - Jeder der 35 Mitarbeiter braucht eine Lizenz
+  - User-Lizenz erlaubt Office auf mehreren Geräten (PC + Laptop)
+  
+  **4. Risiken für Außendienstler:**
+  - KMS-Aktivierung läuft nach 180 Tagen ab → Windows zeigt Warnmeldung
+  - Lösung: VPN-Pflicht alle 3 Monate oder Active Directory Domain Join mit Azure AD ermöglichen Onlineaktivierung

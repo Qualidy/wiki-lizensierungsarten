@@ -1,0 +1,25 @@
+title: KMS-Aktivierung verstehen
+difficulty: 2
+question: |
+  Erkläre die KMS-Aktivierung einem neuen Azubi, der bisher nur Heimrechner kennt.
+  
+  Dein Text sollte folgende Punkte abdecken:
+  
+  1. Was ist der Unterschied zur „normalen" Windows-Aktivierung bei einem Heimrechner?
+  2. Warum macht KMS für Unternehmen Sinn?
+  3. Was passiert, wenn ein Firmen-Laptop 6 Monate nicht mehr im Firmennetz war?
+tip: |
+  Bei einer normalen Windows-Aktivierung zu Hause gibst du deinen Produktschlüssel ein und Windows aktiviert sich direkt bei Microsoft. Im Unternehmen läuft das über einen internen Server.
+solution: |
+  **1. Unterschied zur Heimaktivierung:**
+  Zu Hause gibt man einen einzigartigen Produktschlüssel ein, und Windows aktiviert sich direkt bei Microsoft über das Internet.
+  
+  Bei KMS im Unternehmen gibt es keinen individuellen Schlüssel pro PC. Stattdessen kontaktiert der PC einen internen KMS-Server im Firmennetz, der die Aktivierung stellvertretend übernimmt. Microsoft bekommt nur Kontakt zum Server, nicht zu jedem einzelnen PC.
+  
+  **2. Warum KMS für Unternehmen?**
+  - Kein Aufwand mit einzelnen Produktschlüsseln für 500+ PCs
+  - Zentrale Kontrolle und Protokollierung
+  - Spart Zeit bei Neuinstallationen
+  
+  **3. Laptop nach 6 Monaten:**
+  Die KMS-Aktivierung muss alle 180 Tage erneuert werden. Nach 6 Monaten ohne Verbindung zum KMS-Server läuft die Aktivierung ab. Windows zeigt dann einen Hinweis und schränkt ggf. Funktionen ein. Lösung: VPN ins Firmennetz aufbauen, damit sich Windows neu aktivieren kann.

@@ -4,41 +4,42 @@ hide:
   - toc
 ---
 
-
-
-<div class="grid" markdown style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-
-<div markdown>
-
-# Basis Wiki
-
-<div class="grid cards fancy grid--cols-1" markdown >
-- [:material-call-split: **Topic 1**](content/1.md)
-- [:material-call-split: **Topic 1**](content/1.md)
-- [:material-call-split: **Topic 1**](content/1.md)
-- [:material-call-split: **Topic 1**](content/1.md)
+<div class="course-hero">
+  <span class="course-badge">M1.9 · Software</span>
+  <h1 class="course-title">Lizenzierungsarten</h1>
+  <p class="course-desc">Softwarelizenzen verstehen, rechtliche Grundlagen kennen und Lizenzentscheidungen sicher auf reale IT-Umgebungen übertragen.</p>
 </div>
 
-</div>
+<div class="chapter-grid">
 
-<div style="margin-left: 15px" markdown>
+<a class="day-card" href="content/kapitel1/">
+  <span class="day-label">Kapitel 1</span>
+  <strong class="day-title">Einstieg & Lizenzmodelle</strong>
+  <span class="day-topics">Was ist eine Softwarelizenz? · OEM-Lizenzen · Volumenlizenzen</span>
+</a>
 
-![](assets/logo.png)
+<a class="day-card" href="content/kapitel2/">
+  <span class="day-label">Kapitel 2</span>
+  <strong class="day-title">Unternehmenslizenzen</strong>
+  <span class="day-topics">User- & Gerätelizenzen · NUL · KMS-Aktivierung · CAL-Lizenzen</span>
+</a>
 
-Hier können weitere Inhalte rein.
+<a class="day-card" href="content/kapitel3/">
+  <span class="day-label">Kapitel 3</span>
+  <strong class="day-title">Open Source Lizenzen</strong>
+  <span class="day-topics">Was ist Open Source? · GNU GPL · MIT · Creative Commons</span>
+</a>
 
-{{ link("externer Link", "https://google.com") }}
+<a class="day-card" href="content/kapitel4/">
+  <span class="day-label">Kapitel 4</span>
+  <strong class="day-title">Rechtliche Grundlagen</strong>
+  <span class="day-topics">Urheberrecht · Markenrecht · Copyright · EULA</span>
+</a>
 
-{{ youtube_video("https://www.youtube.com/embed/chPCpYNJe_Q?si=frU_Z_VwSGnPWEPF") }}
+<a class="day-card day-card--full" href="content/kapitel5/">
+  <span class="day-label">Kapitel 5</span>
+  <strong class="day-title">Fallstudien & Abschluss</strong>
+  <span class="day-topics">Praxisszenarien · Compliance · Wiederholung · Abschlussaufgabe</span>
+</a>
 
-!!! tip "Schneller Navigieren"
-
-    ++p++ oder ++comma++ : Zur vorherigen Seite gehen (**P**revious)
-
-    ++n++ oder ++period++ : Zur nächsten Seite gehen (**N**ext)
-    
-</div>
-[Subscribe to our newsletter](#){ .md-button }
-
-[Subscribe to our newsletter](#){ .md-button .md-button--primary }
 </div>

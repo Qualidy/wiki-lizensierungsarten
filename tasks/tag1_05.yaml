@@ -1,0 +1,40 @@
+title: Lizenzverstoß erkennen
+difficulty: 3
+question: |
+  Lies das folgende Szenario und identifiziere alle Lizenzverstöße. Erkläre jeweils warum es sich um einen Verstoß handelt und was korrekt wäre.
+  
+  ---
+  
+  **Szenario:** Die „Schreiber & Partner KG" hat vor 5 Jahren 10 PCs mit Windows 11 (OEM) gekauft. Drei davon sind inzwischen defekt und wurden entsorgt. Die IT-Abteilung hat die Windows-Lizenzen dieser drei PCs auf neue Bürorechner übertragen.
+  
+  Außerdem hat ein Mitarbeiter die Bürosoftware (Volumenlizenz, 10 Installationen) auch auf seinem privaten Laptop zuhause installiert, weil er oft im Homeoffice arbeitet.
+  
+  Ein weiterer Mitarbeiter hat die Installations-DVD der Bürosoftware an einen Freund weitergegeben, der selbstständig ist und „sowieso nicht viel Geld hat".
+  
+  ---
+  
+  Beantworte:
+  1. Wie viele Lizenzverstöße gibt es?
+  2. Erkläre jeden Verstoß einzeln
+  3. Welche rechtlichen Konsequenzen könnten entstehen?
+tip: |
+  Prüfe jeden Handlungsschritt einzeln:
+  - OEM-Lizenzen übertragen?
+  - Volumenlizenz auf privaten Geräten?
+  - Weitergabe von Software?
+solution: |
+  Es gibt **3 Lizenzverstöße**:
+  
+  **Verstoß 1 – OEM-Übertragung:**
+  Die drei Windows-Lizenzen von den entsorgten PCs dürfen nicht übertragen werden. OEM-Lizenzen erlöschen mit der Hardware. Die neuen PCs benötigen eigene Lizenzen.
+  
+  **Verstoß 2 – Private Nutzung der Volumenlizenz:**
+  Eine Firmenlizenz gilt nur für Geräte des Unternehmens. Der private Laptop des Mitarbeiters gehört nicht dazu. Auch bei Homeoffice ist das eine unerlaubte Nutzung.
+  
+  **Verstoß 3 – Weitergabe der Software:**
+  Die Weitergabe einer kommerziellen Software-DVD ist eine Urheberrechtsverletzung, egal ob der Empfänger Geld hat oder nicht. Das Weitergeben ohne Lizenzübertragung ist illegal.
+  
+  **Mögliche Konsequenzen:**
+  - Abmahnungen und Schadensersatzforderungen durch den Hersteller
+  - Bußgelder (bis zu mehreren tausend Euro pro Verstoß)
+  - In schweren Fällen: Strafanzeige wegen Urheberrechtsverletzung

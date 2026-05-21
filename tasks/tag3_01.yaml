@@ -1,0 +1,22 @@
+title: Open Source – Mythen erkennen
+difficulty: 1
+question: |
+  Entscheide bei jeder Aussage, ob sie **richtig** oder **falsch** ist. Begründe jeweils kurz.
+  
+  1. „Open Source Software ist immer kostenlos."
+  2. „Ich darf MIT-lizenzierte Software in meinem kommerziellen Produkt verwenden."
+  3. „GPL-Software darf ich verändern und als geschlossenes kommerzielles Produkt verkaufen."
+  4. „Bei Creative Commons muss ich immer den Urheber nennen, wenn ich das Werk nutze."
+  5. „Freeware und Open Source bedeuten dasselbe."
+tip: |
+  Open Source bedeutet „offener Quellcode" – nicht automatisch kostenlos. Jede Lizenz hat eigene Regeln.
+solution: |
+  1. **Falsch** – Open Source bedeutet offener Quellcode, nicht kostenlos. Man kann auch Geld für Open-Source-Software verlangen.
+  
+  2. **Richtig** – MIT ist eine permissive Lizenz, die kommerzielle Nutzung ausdrücklich erlaubt.
+  
+  3. **Falsch** – GPL hat das Copyleft-Prinzip: Wer GPL-Software verändert und weitergibt, muss den Quellcode ebenfalls unter der GPL veröffentlichen.
+  
+  4. **Falsch** – Nicht alle CC-Lizenzen enthalten das BY-Modul. CC0 z. B. erfordert keinerlei Namensnennung.
+  
+  5. **Falsch** – Freeware ist kostenlos nutzbar, aber der Quellcode ist meist nicht einsehbar. Open Source bedeutet offener Quellcode – ist aber nicht zwingend kostenlos.

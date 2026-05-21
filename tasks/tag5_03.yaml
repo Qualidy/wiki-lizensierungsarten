@@ -1,0 +1,32 @@
+title: Open-Source-Projekt veröffentlichen
+difficulty: 2
+question: |
+  Du hast als Hobby-Projekt eine kleine Python-Bibliothek entwickelt, die Rechnungen automatisch in PDF umwandelt. Du möchtest sie auf GitHub veröffentlichen.
+  
+  Du überlegst, welche Open-Source-Lizenz die richtige ist. Folgende Anforderungen hast du:
+  
+  - Andere Entwickler sollen die Bibliothek kostenlos nutzen dürfen
+  - Unternehmen sollen sie auch in kommerzielle Produkte einbauen dürfen
+  - Du möchtest aber, dass dein Name als Autor immer sichtbar bleibt
+  - Du möchtest nicht, dass jemand deine Bibliothek nimmt, leicht verändert und als geschlossenes Produkt verkauft, ohne dass die Verbesserungen zurückfließen
+  
+  **Aufgaben:**
+  1. Welche Lizenz erfüllt alle deine Anforderungen am besten?
+  2. Welche Lizenz würde passen, wenn dir der letzte Punkt egal wäre?
+  3. Was müsstest du auf GitHub tun, damit die Lizenz gilt?
+tip: |
+  Copyleft bedeutet: Wer verändert und weitergibt, muss dieselbe Lizenz verwenden. Schau dir die GPL-Varianten und die MIT-Lizenz noch einmal an.
+solution: |
+  **1.** Die **LGPL** (GNU Lesser General Public License) ist eine gute Wahl:
+  - Nutzung auch in kommerziellen Produkten erlaubt
+  - Dein Name bleibt erhalten
+  - Veränderungen an der Bibliothek selbst müssen unter LGPL veröffentlicht werden
+  
+  Alternativ wäre auch **GPL v3** möglich – aber dann müsste der gesamte Code, der die Bibliothek einbindet, ebenfalls GPL sein (Copyleft wirkt stärker).
+  
+  **2.** Wenn der letzte Punkt egal wäre: **MIT-Lizenz** – maximale Freiheit, dein Name bleibt erhalten, aber Verbesserungen müssen nicht zurückgegeben werden.
+  
+  **3. Auf GitHub:**
+  - Eine Datei namens **LICENSE** im Root-Verzeichnis erstellen, die den vollständigen Lizenztext enthält
+  - Im README-File die Lizenz erwähnen (z. B. „This project is licensed under the MIT License.")
+  - Optional: Copyright-Hinweis im Code-Header jeder Datei

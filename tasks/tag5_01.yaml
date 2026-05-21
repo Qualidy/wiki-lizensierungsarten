@@ -1,0 +1,31 @@
+title: Lizenzmodell schnell zuordnen
+difficulty: 1
+question: |
+  Ordne jedem Szenario das passende Lizenzmodell zu. Wähle aus:
+  OEM, Volumenlizenz, User-CAL, Device-CAL, NUL, KMS, MIT, GPL, CC-BY-NC
+  
+  1. Ein Webentwickler findet eine JavaScript-Bibliothek, die er kostenlos in seine kommerzielle App einbauen darf, solange er den Urheber nennt.
+  
+  2. Eine Firma kauft 200 neue Laptops und Windows ist bereits vorinstalliert.
+  
+  3. 30 Lagerarbeiter teilen sich 8 Terminals und greifen damit auf einen Windows Server zu.
+  
+  4. Ein Linux-Hersteller möchte seinen modifizierten Kernel als Closed Source verkaufen.
+  
+  5. Ein Unternehmen möchte Windows auf 500 PCs zentral ohne Einzelschlüssel aktivieren.
+  
+  6. Ein Buchhalter greift von Büro-PC, Laptop und Homeoffice-PC auf das ERP-System zu.
+tip: |
+  Denke an die Kernmerkmal jedes Modells: Hardwarebindung, Gerät vs. Person, Copyleft, zentrale Aktivierung.
+solution: |
+  1. **MIT** – permissiv, erlaubt kommerzielle Nutzung, nur Namensnennung nötig.
+  
+  2. **OEM** – vorinstalliertes Windows auf neuen Laptops = OEM-Lizenz.
+  
+  3. **Device-CAL** – 8 Terminals, viele Nutzer → Geräte-CALs günstiger (8 statt 30).
+  
+  4. **Nicht möglich (GPL)** – wenn Linux-Kernel (GPL v2) genutzt wird, muss der Kernel-Code veröffentlicht werden. Geschlossener Verkauf ist eine Lizenzverletzung.
+  
+  5. **KMS** – Key Management Service für zentrale Aktivierung großer Windows-Deployments.
+  
+  6. **NUL (Named User License)** – eine Person, mehrere Geräte → User-Lizenz ist die richtige Wahl.

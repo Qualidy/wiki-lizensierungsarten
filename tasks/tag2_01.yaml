@@ -1,0 +1,18 @@
+title: User-CAL oder Device-CAL?
+difficulty: 1
+question: |
+  Ein Unternehmen hat einen Windows Server für Dateifreigaben. Es gibt 20 Mitarbeiter und 15 Arbeitsplatz-PCs.
+  
+  **Frage:** Welcher CAL-Typ ist in diesem Fall günstiger – User-CAL oder Device-CAL? Rechne kurz nach und erkläre warum.
+tip: |
+  User-CAL = eine CAL pro Person. Device-CAL = eine CAL pro Gerät.
+  Überlege: Welche Zahl ist kleiner – Personen oder Geräte?
+solution: |
+  **Device-CAL ist günstiger**, weil 15 Geräte < 20 Personen.
+  
+  - User-CAL: 20 Lizenzen (eine pro Mitarbeiter)
+  - Device-CAL: 15 Lizenzen (eine pro PC)
+  
+  Das Unternehmen spart 5 Lizenzen durch Device-CALs.
+  
+  Hinweis: Voraussetzung ist, dass die Mitarbeiter nur von diesen 15 PCs aus auf den Server zugreifen.

@@ -1,0 +1,23 @@
+title: Copyright © richtig einsetzen
+difficulty: 2
+question: |
+  Ein Azubi behauptet: „Wenn ich kein © auf meine Webseite schreibe, dann ist der Code nicht geschützt und jeder darf ihn kopieren."
+  
+  Ein anderer sagt: „Das ist Blödsinn – der Schutz entsteht automatisch."
+  
+  **Aufgaben:**
+  1. Wer hat Recht? Begründe.
+  2. Welchen Unterschied macht das © dann noch, wenn der Schutz automatisch entsteht?
+  3. Ein US-amerikanisches Unternehmen möchte deinen Website-Code verwenden und behauptet: „Wir haben das Copyright übernommen, also gehört uns der Code." Ist das in Deutschland möglich?
+tip: |
+  In Deutschland gilt das UrhG, nicht das US Copyright Law. Urheberrecht ≠ Copyright in allen Details.
+solution: |
+  **1.** Der zweite Azubi hat Recht. Das Urheberrecht entsteht in Deutschland **automatisch** mit der Schöpfung. Ein © ist nicht notwendig.
+  
+  **2.** Das © hat trotzdem einen Zweck:
+  - Es **signalisiert anderen**, dass der Urheber sein Recht aktiv beansprucht
+  - Es enthält oft das **Jahr** und den **Namen** des Rechteinhabers
+  - Bei internationalen Projekten (vor allem USA) war das © früher rechtlich notwendig – auch heute noch ist es guter Stil
+  - Es dient als **Beweismittel**, falls jemand sagt, er hätte nicht gewusst, dass der Inhalt geschützt ist
+  
+  **3.** Nein, das ist in Deutschland **nicht möglich**. Das Urheberrecht ist in Deutschland **unübertragbar**. Nur Nutzungsrechte können übertragen werden. Das Urheberrecht selbst bleibt immer beim Schöpfer. Was das US-Unternehmen höchstens erwerben kann: ein ausschließliches Nutzungsrecht – aber keine Eigentumsübertragung des Urheberrechts selbst.

@@ -1,0 +1,46 @@
+title: EULA im Unternehmenseinsatz prüfen
+difficulty: 3
+question: |
+  Du bist IT-Leiter eines mittelständischen Unternehmens. Die Geschäftsführung möchte eine neue Projektmanagement-Software einführen.
+  
+  Im EULA steht unter anderem:
+  
+  1. *„The software may be used by up to 10 named users. Additional users require additional licenses."*
+  2. *„All data stored in the software may be processed by the vendor for product improvement purposes."*
+  3. *„This agreement is governed by the laws of the State of Delaware, USA."*
+  4. *„The vendor may update the software at any time and change functionality without prior notice."*
+  5. *„The user grants the vendor a non-exclusive, worldwide license to use, reproduce, and display any content uploaded to the software."*
+  
+  Das Unternehmen hat 15 Projektleiter, die die Software nutzen sollen. Es arbeitet mit personenbezogenen Kundendaten.
+  
+  **Aufgaben:**
+  1. Identifiziere alle Punkte, die für das Unternehmen ein **rechtliches oder praktisches Risiko** darstellen.
+  2. Welche Klausel ist aus DSGVO-Sicht am kritischsten? Begründe ausführlich.
+  3. Was würdest du der Geschäftsführung **empfehlen**, bevor die Software eingeführt wird?
+tip: |
+  Denke an: Lizenzanzahl vs. Nutzerzahl, DSGVO-Pflichten des Unternehmens, welches Recht gilt, was mit hochgeladenen Daten passiert.
+solution: |
+  **1. Risiken:**
+  
+  - **Klausel 1:** Das Unternehmen braucht 15 Lizenzen, hat aber nur 10. Sofortiger Nachkauf erforderlich, sonst Lizenzverstoß für 5 Nutzer.
+  
+  - **Klausel 2:** Der Anbieter verarbeitet Unternehmensdaten für eigene Zwecke. Falls personenbezogene Kundendaten in der Software gespeichert werden, ist das ein DSGVO-Problem (Auftragsverarbeitung ohne klare Rechtsgrundlage).
+  
+  - **Klausel 3:** Geltendes Recht ist Delaware (USA) – das kann Vertragsstreitigkeiten deutlich erschweren und teurer machen.
+  
+  - **Klausel 4:** Der Anbieter kann Funktionen jederzeit ändern oder entfernen. Kritisch, wenn das Unternehmen auf bestimmte Features angewiesen ist.
+  
+  - **Klausel 5:** Hochgeladene Inhalte dürfen vom Anbieter weltweit genutzt werden. Falls Kundendaten, Verträge oder vertrauliche Projektdokumente hochgeladen werden, verliert das Unternehmen faktisch die Kontrolle darüber.
+  
+  **2. Kritischste Klausel (DSGVO):**
+  Klausel 5 in Kombination mit Klausel 2. Wenn personenbezogene Daten (z. B. Kundennamen, Projektdetails mit Personenbezug) hochgeladen werden und der Anbieter diese nutzen darf, liegt eine Datenübermittlung an einen Dritten vor. Das erfordert:
+  - Einen **Auftragsverarbeitungsvertrag (AVV)** nach Art. 28 DSGVO
+  - Eine Prüfung, ob ein Drittland-Transfer (USA) nach Art. 46 DSGVO abgedeckt ist (z. B. durch SCCs)
+  Ohne diese Absicherung drohen DSGVO-Bußgelder bis zu 4% des weltweiten Jahresumsatzes.
+  
+  **3. Empfehlung:**
+  - Sofort 5 weitere Lizenzen kaufen oder verhandeln
+  - Einen Auftragsverarbeitungsvertrag (AVV) mit dem Anbieter abschließen
+  - Rechtsbeistand prüfen lassen, ob Delaware-Recht in deutschen Verträgen wirksam ist
+  - Verhandeln: Klausel 5 (Content-Lizenz) einschränken oder streichen
+  - Alternativprodukte prüfen, wenn der Anbieter nicht nachverhandelt

@@ -1,0 +1,22 @@
+title: Linux und das Copyleft-Prinzip
+difficulty: 2
+question: |
+  Der Linux-Kernel ist unter der **GPL v2** lizenziert. Unternehmen wie Google (Android), Red Hat und viele andere bauen Produkte auf Basis von Linux.
+  
+  **Fragen:**
+  1. Darf Google den Linux-Kernel in Android einsetzen? Unter welchen Bedingungen?
+  2. Warum musste Google den Kernel-Code für Android veröffentlichen, aber nicht den Rest von Android?
+  3. Ein Hersteller von Industrierobotern möchte Linux für seine Firmware nutzen, aber den Firmware-Quellcode geheim halten. Ist das möglich? Begründe.
+tip: |
+  GPL gilt für den GPL-lizenzierten Teil. Wenn du GPL-Code veränderst und weitergibst, muss dieser Teil GPL bleiben – aber nicht unbedingt der gesamte umgebende Code, je nach Einbindung.
+solution: |
+  **1.** Ja, Google darf den Linux-Kernel in Android verwenden. Da sie den Kernel verändern und verteilen, müssen sie ihre **Kernel-Änderungen unter der GPL v2 veröffentlichen** – was Google auch tut.
+  
+  **2.** GPL gilt für den GPL-lizenzierten Code selbst. Der Android-Kernel ist modifizierter Linux-Code → GPL-pflichtig. Der Rest von Android (Java-Framework, Apps usw.) ist separat und liegt unter anderen Lizenzen (Apache 2.0). Eine Vermischung auf Bibliotheksebene ist der entscheidende Faktor.
+  
+  **3.** Das ist **nicht ohne Weiteres möglich**. Wenn der Hersteller den Linux-Kernel modifiziert und die Firmware verteilt (z. B. bei Kunden installiert), muss er seine Kernel-Änderungen unter der GPL veröffentlichen.
+  
+  Optionen:
+  - Nur unveränderten Kernel nutzen + eigene Software als separates Modul (rechtlich komplex)
+  - Auf ein eingebettetes OS ohne GPL setzen (z. B. VxWorks, QNX – aber kostenpflichtig)
+  - Kernel-Code veröffentlichen, proprietäre Applikationsschicht geheim halten

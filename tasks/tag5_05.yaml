@@ -1,0 +1,87 @@
+title: Abschlussaufgabe – Komplettes Lizenzierungskonzept
+difficulty: 3
+question: |
+  Du bist IT-Koordinator bei der **„LogiTrans AG"**, einem mittelständischen Speditionsunternehmen mit folgender IT-Infrastruktur:
+  
+  **Mitarbeiter:**
+  - 50 Büromitarbeiter (je ein fester PC, Windows)
+  - 20 Lkw-Fahrer (kein eigenes Gerät, nutzen 5 Tablet-Terminals in der Disposition)
+  - 10 IT-Mitarbeiter (je ein PC + ein Laptop, alle mit Windows)
+  - 3 Geschäftsführer (PC + Laptop + Tablet)
+  
+  **Server:**
+  - 1 Windows Server 2022 für Dateifreigaben und Active Directory
+  - 1 Linux-Server für die interne Webanwendung
+  
+  **Software:**
+  - Microsoft Office: alle Büromitarbeiter und IT
+  - SAP (Named User License, Preismodell pro Person): 50 Büromitarbeiter + 3 GF
+  - Eine Open-Source-Bibliothek (MIT) wird intern genutzt
+  - Eine neue Analyse-Software: der Anbieter bietet nur AGPL-Lizenz an
+  
+  **Aufgaben:**
+  
+  **Teil A – Windows & CAL:**
+  1. Wie aktivierst du Windows auf den insgesamt 76 Windows-Geräten? Begründe.
+  2. Wie viele User-CALs oder Device-CALs werden für den Windows Server benötigt? Berechne und begründe.
+  
+  **Teil B – Software:**
+  3. Wie viele SAP-NUL-Lizenzen werden benötigt?
+  4. Die MIT-Bibliothek soll in ein internes Werkzeug eingebaut werden. Ist das problemlos?
+  5. Die AGPL-Analyse-Software soll nur intern genutzt werden (kein Vertrieb). Stellt die AGPL ein Problem dar?
+  
+  **Teil C – Strategie:**
+  6. Was sollte die LogiTrans AG tun, um dauerhaft lizenz-compliant zu bleiben?
+tip: |
+  Zähle Geräte und Personen getrennt. Fahrer haben kein eigenes Gerät. IT-Mitarbeiter haben 2 Geräte. Für CALs: Wer greift auf den Server zu?
+solution: |
+  **Teil A – Windows & CAL:**
+  
+  **1. Windows-Aktivierung:**
+  **KMS-Aktivierung** über den Windows Server.
+  - 76 Geräte übersteigen das KMS-Minimum (25 Windows-Clients)
+  - Zentral und effizient verwaltbar
+  - Alle Geräte müssen sich regelmäßig (alle 180 Tage) im Firmennetz oder per VPN einloggen
+  - Besonderes Augenmerk auf die 3 GF-Tablets und die Laptops der IT (mobil → VPN-Pflicht)
+  
+  **2. CAL-Berechnung:**
+  
+  Wer greift auf den Windows Server zu?
+  - 50 Büromitarbeiter: je 1 Gerät → 50 Personen = 50 Geräte (gleich)
+  - 20 Fahrer: teilen 5 Tablets → **Device-CAL × 5** (statt User-CAL × 20!)
+  - 10 IT: je PC + Laptop (2 Geräte, 1 Person) → **User-CAL × 10**
+  - 3 GF: PC + Laptop + Tablet (3 Geräte, 1 Person) → **User-CAL × 3**
+  
+  Optimale Mischung:
+  - Büro: User-CAL × 50 (oder Device-CAL × 50 – identisch, User flexibler)
+  - Fahrer: Device-CAL × 5 (spart 15 Lizenzen)
+  - IT: User-CAL × 10
+  - GF: User-CAL × 3
+  
+  **Gesamt: 68 CALs** (statt 83 bei reinen User-CALs)
+  
+  ---
+  
+  **Teil B – Software:**
+  
+  **3. SAP-NUL-Lizenzen:**
+  50 Büromitarbeiter + 3 GF = **53 Named User Licenses**
+  (Die 20 Fahrer und 10 IT-Mitarbeiter nutzen SAP nicht laut Aufgabe)
+  
+  **4. MIT-Bibliothek:**
+  Ja, das ist problemlos. Die MIT-Lizenz erlaubt die Nutzung in internen Werkzeugen ohne Einschränkungen. Es muss lediglich der Copyright-Hinweis erhalten bleiben. Kein Quellcode muss veröffentlicht werden.
+  
+  **5. AGPL intern:**
+  Bei **rein interner Nutzung** (keine Weitergabe an externe Nutzer, kein Netzwerkzugang für Externe) stellt AGPL in der Regel kein Problem dar. Die AGPL-Pflichten (Quellcode-Veröffentlichung) entstehen erst, wenn externe Nutzer über ein Netzwerk auf die Software zugreifen. Da die Software nur intern läuft: kein Handlungsbedarf.
+  
+  Vorsicht: Wenn die Software zukünftig auch Kunden zugänglich gemacht wird (z. B. Kundenportal), greift AGPL. Dann muss der Quellcode veröffentlicht werden oder eine kommerzielle Lizenz beschafft werden.
+  
+  ---
+  
+  **Teil C – Strategie für dauerhaftes Compliance:**
+  - **Lizenzverwaltungssoftware** einführen (z. B. Snipe-IT oder Microsoft VLSC)
+  - **Prozess bei Mitarbeiterwechsel:** NUL-Accounts sofort deaktivieren
+  - **Regelmäßige interne Audits** (1× jährlich): Installationen vs. Lizenzen abgleichen
+  - **VPN-Pflicht** für mobile Mitarbeiter zur KMS-Erneuerung
+  - **Dokumentation** aller Lizenzen mit Ablaufdaten, Anzahl und Bindung
+  - **Schulung der IT-Mitarbeiter** zu Lizenzregeln (einmal jährlich)

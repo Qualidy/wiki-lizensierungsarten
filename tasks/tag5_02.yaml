@@ -1,0 +1,39 @@
+title: Audit-Vorbereitung
+difficulty: 2
+question: |
+  Das Unternehmen „PrintService GmbH" hat angekündigt bekommen, dass Microsoft in 4 Wochen ein Lizenz-Audit durchführt.
+  
+  Der IT-Verantwortliche hat folgende Situation vorgefunden:
+  
+  - 40 Windows-PCs im Einsatz, davon 35 mit OEM-Lizenzen (auf den jeweiligen PCs) und 5 neuere PCs ohne Windows-Lizenz
+  - Microsoft Office ist auf allen 40 PCs installiert, aber nur 30 Office-Lizenzen (Volumenlizenz) vorhanden
+  - 3 PCs gehörten ehemaligen Mitarbeitern – deren NUL-Logins für die ERP-Software wurden nie deaktiviert
+  - Ein KMS-Server läuft im Netzwerk, aber 8 Laptops der Außendienstler haben sich seit über 200 Tagen nicht eingewählt
+  
+  **Aufgaben:**
+  1. Welche konkreten Lizenzverstöße liegen vor?
+  2. Was muss der IT-Verantwortliche in den nächsten 4 Wochen tun?
+  3. Welches finanzielle Risiko besteht beim Audit?
+tip: |
+  Gehe jeden Punkt einzeln durch und frage: Ist die Anzahl der Lizenzen ausreichend? Sind inaktive Accounts ein Problem?
+solution: |
+  **1. Lizenzverstöße:**
+  
+  - **Windows:** 5 PCs ohne Windows-Lizenz → klarer Verstoß, sofortiger Handlungsbedarf.
+  - **Office:** 40 Installationen, nur 30 Lizenzen → 10 Office-Installationen sind unlizenziert.
+  - **NUL-Logins:** 3 deaktivierte Mitarbeiter nutzen (theoretisch) noch ERP-Zugänge → die NUL-Lizenzen müssen deaktiviert/neu vergeben werden.
+  - **KMS-Laptops:** Nach 180 Tagen ohne KMS-Kontakt ist Windows nicht mehr aktiviert → 8 Laptops sind ungültig aktiviert (oder zeigen Warnungen).
+  
+  **2. Maßnahmen in 4 Wochen:**
+  - 5 Windows-Lizenzen kaufen (Volumen- oder Einzelhandelslizenzen)
+  - 10 Office-Lizenzen kaufen oder 10 Installationen deinstallieren
+  - ERP-NUL-Accounts der 3 ausgeschiedenen Mitarbeiter sofort deaktivieren
+  - Außendienstler verpflichten, sich per VPN ins Firmennetz einzuloggen (KMS-Erneuerung)
+  - Vollständige Lizenzdokumentation erstellen
+  
+  **3. Finanzielles Risiko:**
+  Bei 15 fehlenden Lizenzen (5 Windows + 10 Office):
+  - Nachzahlung zum vollen Listenpreis + mögliche Strafzuschläge (20–50%)
+  - Windows Pro Lizenz ca. 200 € × 5 = 1.000 €, ggf. + 500 € Zuschlag
+  - Office 365 Business ca. 150 € × 10 = 1.500 €, ggf. + 750 € Zuschlag
+  - Mögliche Vertragsstrafe oder Klage bei Vorsatz

@@ -1,0 +1,20 @@
+title: OEM oder Volumenlizenz?
+difficulty: 1
+question: |
+  Ordne die folgenden Szenarien dem richtigen Lizenzmodell zu (OEM oder Volumenlizenz).
+  Begründe deine Entscheidung in einem Satz.
+  
+  **Szenario A:** Ein mittelständisches Unternehmen kauft 80 neue PCs bei einem Händler. Windows ist bereits vorinstalliert und aktiviert.
+  
+  **Szenario B:** Ein Unternehmen kauft nachträglich 80 Windows-Lizenzen, um bestehende PCs in der Buchhaltung zu lizenzieren.
+  
+  **Szenario C:** Eine Schule kauft 30 Laptops für die Schüler. Auf jedem Laptop ist Windows bereits installiert.
+tip: |
+  OEM-Lizenzen kommen immer zusammen mit der Hardware – sie sind bereits beim Kauf des Geräts dabei.
+  Volumenlizenzen werden unabhängig von der Hardware gekauft.
+solution: |
+  **Szenario A:** OEM-Lizenz – Windows ist bereits auf den neuen PCs vorinstalliert und an diese Hardware gebunden.
+  
+  **Szenario B:** Volumenlizenz – die Software wird nachträglich und unabhängig von der Hardware erworben.
+  
+  **Szenario C:** OEM-Lizenz – auch bei Schulen gilt: vorinstalliertes Windows auf gekauften Laptops = OEM.

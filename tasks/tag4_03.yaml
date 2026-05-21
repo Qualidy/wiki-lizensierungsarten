@@ -1,0 +1,41 @@
+title: EULA-Klauseln analysieren
+difficulty: 2
+question: |
+  Lies die folgenden EULA-Klauseln und beantworte die Fragen dazu.
+  
+  ---
+  
+  **Klausel 1:**
+  *„This software is licensed for use on a single computer. Use on multiple computers simultaneously is prohibited."*
+  
+  **Klausel 2:**
+  *„By installing this software, you consent to the collection of anonymized usage statistics, including but not limited to: features used, session duration, and error reports."*
+  
+  **Klausel 3:**
+  *„The vendor shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of this software."*
+  
+  **Klausel 4:**
+  *„This agreement may be terminated by the vendor without notice if the user violates any terms herein."*
+  
+  ---
+  
+  **Aufgaben:**
+  1. Erkläre jede Klausel in einfachem Deutsch (1–2 Sätze pro Klausel).
+  2. Welche Klausel ist für ein Unternehmen aus DSGVO-Sicht besonders relevant?
+  3. Welche Klausel könnte in Deutschland rechtlich problematisch sein?
+tip: |
+  Übersetze die Klauseln zunächst wörtlich. Dann überlege: Was bedeutet das konkret für einen Nutzer oder ein Unternehmen?
+solution: |
+  **Klausel 1:** Die Software darf nur auf einem PC gleichzeitig genutzt werden. Wer die Software auf zwei Rechnern gleichzeitig laufen lässt, verstößt gegen den Vertrag.
+  
+  **Klausel 2:** Durch die Installation stimmt man zu, dass Nutzungsdaten (welche Funktionen verwendet werden, wie lange, welche Fehler auftreten) gesammelt werden – angeblich anonymisiert.
+  
+  **Klausel 3:** Der Hersteller haftet nicht für Schäden, die durch die Software entstehen – egal ob direkte Schäden (z. B. Datenverlust) oder Folgeschäden (z. B. Betriebsausfall).
+  
+  **Klausel 4:** Der Anbieter kann den Vertrag sofort und ohne Vorwarnung kündigen, wenn der Nutzer gegen die Bedingungen verstößt. Die Software könnte dann sofort gesperrt werden.
+  
+  ---
+  
+  **DSGVO-Relevanz:** Klausel 2 ist kritisch. Selbst wenn die Daten anonymisiert sind, muss ein Unternehmen prüfen, ob die Datenerhebung DSGVO-konform ist. Bei Unternehmens-PCs könnten auch personenbezogene Daten erfasst werden.
+  
+  **Rechtlich problematisch:** Klausel 3 (Haftungsausschluss) ist in Deutschland eingeschränkt wirksam. Das AGB-Recht (§ 307 BGB) schränkt weitgehende Haftungsausschlüsse ein – z. B. kann der Hersteller bei Vorsatz oder grober Fahrlässigkeit nicht vollständig die Haftung ausschließen.

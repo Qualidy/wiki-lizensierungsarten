@@ -50,7 +50,7 @@ def create_task(title="Aufgabe",
                 tip="",
                 difficulty=0,
                 difficulty_icon='🌶',
-                collapsed=False,
+                collapsed=True,
                 solution_video=None,
                 question_video=None):
 
